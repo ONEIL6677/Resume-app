@@ -1,4 +1,4 @@
-FROM PYTHON:3
+FROM python:3.9-buster
 ENV PYTHONUNBUFERED 1
 WORKDIR /app
 ADD . /app
